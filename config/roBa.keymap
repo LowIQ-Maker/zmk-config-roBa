@@ -78,6 +78,8 @@
 &kp LEFT_SHIFT  &trans        &trans        &trans        &trans          &kp UP_ARROW      &trans  &kp EQUAL     &kp LBRC      &kp RBRC      &kp BACKSLASH  &trans
 &trans          &trans        &trans        &kp LEFT      &kp DOWN_ARROW  &kp RIGHT         &trans  &kp TAB                                                  &trans
             >;
+
+            sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;
         };
 
         ARROW {
